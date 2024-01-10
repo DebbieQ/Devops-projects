@@ -6,7 +6,7 @@ This project automates the deployment of a scalable and highly available Jenkins
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
-- ![Setup Infrastructure](./image/jenkins-ha.png)
+- [Setup Infrastructure](#setup-infrastructure)
 - [Getting Started](#getting-started)
   - [Packer - Build Jenkins AMIs](#packer---build-jenkins-amis)
   - [Terraform - Provision Infrastructure](#terraform---provision-infrastructure)
@@ -32,8 +32,9 @@ Before getting started, ensure you have the following prerequisites:
 
 ## Setup Infrastructure
 
+![Setup Infrastructure](./image/jenkins-ha.png)
 
-## Getting Started
+## Getting Started![Setup Infrastructure](./image/jenkins-ha.png)
 
 ### Packer - Build Jenkins AMIs
 
