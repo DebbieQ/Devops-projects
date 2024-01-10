@@ -44,7 +44,8 @@ Before getting started, ensure you have the following prerequisites:
    cd packer
 
 2. Run Packer to build the custom Jenkins AMIs:
-
+    
+    ```bash
     packer build jenkins-controller.pkr.hcl
     packer build jenkins-agent.pkr.hcl
 
@@ -52,24 +53,29 @@ Before getting started, ensure you have the following prerequisites:
 
 1. Navigate to the terraform directory:
 
+   ```bash
     cd terraform
 
 2. Initialize Terraform:
 
+   ```bash
     terraform init
 
 3. Apply the Terraform configuration:
 
+   ```bash
     terraform apply
 
 ### Ansible - Configure Jenkins
 
 1. Navigate to the ansible directory:
 
+   ```bash
     cd ansible
 
 2. Run the Ansible playbook to configure Jenkins:
 
+   ```bash
     ansible-playbook -i ../terraform/terraform.py jenkins.yml
 
 ## Usage
