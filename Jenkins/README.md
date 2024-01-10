@@ -34,7 +34,7 @@ Before getting started, ensure you have the following prerequisites:
 
 ![Setup Infrastructure](./image/jenkins-ha.png)
 
-## Getting Started![Setup Infrastructure](./image/jenkins-ha.png)
+## Getting Started
 
 ### Packer - Build Jenkins AMIs
 
