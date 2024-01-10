@@ -76,7 +76,9 @@ Before getting started, ensure you have the following prerequisites:
 2. Run the Ansible playbook to configure Jenkins:
 
    ```bash
-    ansible-playbook -i ../terraform/terraform.py jenkins.yml
+    ansible-playbook -i ../terraform/terraform.py jenkins-controller.yaml
+    ansible-playbook -i ../terraform/terraform.py jenkins-agent.yaml
+
 
 ## Usage
 
